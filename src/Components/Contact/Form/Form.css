@@ -1,0 +1,12 @@
+input,
+textarea {
+  padding: 0.6rem 0.4rem !important;
+  border: 2px solid black;
+  border-radius: 5px;
+  font-size: 1.2rem;
+}
+input,
+textarea {
+  outline: 2px solid #40a2;
+  border: 2px solid #40a2db;
+}

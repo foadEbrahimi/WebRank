@@ -1,0 +1,43 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: Tanha;
+  src: url('Font/Tanha-FD.woff2') format(woff2);
+  font-weight: normal;
+}
+.App {
+  background-image: linear-gradient(rgba(25, 25, 26, 0.7), rgba(0, 0, 0, 0.7)),
+    url('images/Hero-bg.jpg');
+  background-position: right top;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  height: fit-content;
+}
+.Farakhan {
+  background-image: linear-gradient(rgba(25, 25, 26, 0.7), rgba(0, 0, 0, 0.7)),
+    url('images/cta-bg.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+  background-color: #f5f5f5;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+  background-color: #f5f5f5;
+}
+
+::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  background-color: #40a2d8;
+}
+
+.active_category {
+  background-color: #40a2d8;
+}
