@@ -9,7 +9,7 @@
 }
 .App {
   background-image: linear-gradient(rgba(25, 25, 26, 0.7), rgba(0, 0, 0, 0.7)),
-    url('./images/Hero-bg.jpg');
+    url('../public/images/Hero-bg.jpg');
   background-position: right top;
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -18,7 +18,7 @@
 }
 .Farakhan {
   background-image: linear-gradient(rgba(25, 25, 26, 0.7), rgba(0, 0, 0, 0.7)),
-    url('./images/cta-bg.jpg');
+    url('../public/images/cta-bg.jpg');
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
