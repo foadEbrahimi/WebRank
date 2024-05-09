@@ -6,42 +6,42 @@ export default function Portfolio(props) {
   const [category, SetCategory] = useState('all');
   const InfoCards = [
     {
-      img: 'Images/Portfolio/portfolio-1.jpg',
+      img: 'images/Portfolio/portfolio-1.jpg',
       titleBox: 'اینترنت 3',
       subtitle: 'اینترنت',
       category: 'Internet',
       id: 1,
     },
     {
-      img: 'Images/Portfolio/portfolio-2.jpg',
+      img: 'images/Portfolio/portfolio-2.jpg',
       titleBox: 'محصول 1',
       subtitle: 'محصول',
       category: 'Product',
       id: 2,
     },
     {
-      img: 'Images/Portfolio/portfolio-3.jpg',
+      img: 'images/Portfolio/portfolio-3.jpg',
       titleBox: 'محصول 3',
       subtitle: 'محصول',
       category: 'Product',
       id: 3,
     },
     {
-      img: 'Images/Portfolio/portfolio-4.jpg',
+      img: 'images/Portfolio/portfolio-4.jpg',
       titleBox: 'اینترنت 2',
       subtitle: 'اینترنت',
       category: 'Internet',
       id: 4,
     },
     {
-      img: 'Images/Portfolio/portfolio-5.jpg',
+      img: 'images/Portfolio/portfolio-5.jpg',
       titleBox: 'برنامه 3',
       subtitle: 'برنامه',
       category: 'Program',
       id: 5,
     },
     {
-      img: 'Images/Portfolio/portfolio-6.jpg',
+      img: 'images/Portfolio/portfolio-6.jpg',
       titleBox: 'برنامه 1',
       subtitle: 'برنامه',
       category: 'Program',
