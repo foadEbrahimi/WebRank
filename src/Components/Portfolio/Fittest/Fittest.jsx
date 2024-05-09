@@ -87,7 +87,7 @@ export default function Fittest() {
     <div className="lg:flex gap-10">
       <div className="lg:w-6/12">
         <img
-          src="/Images/Portfolio/Fittest/img.jpg"
+          src="images/Portfolio/Fittest/img.jpg"
           className="w-[31rem] h-[25rem] md:w-[50rem] object-cover mx-auto lg:h-[34rem]"
           alt="Fittest Img"
         />
