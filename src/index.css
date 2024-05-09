@@ -4,7 +4,7 @@
 
 @font-face {
   font-family: Tanha;
-  src: url('./Font/Tanha-FD.woff2') format(woff2);
+  src: url('../public/Font/Tanha-FD.woff2') format(woff2);
   font-weight: normal;
 }
 .App {
