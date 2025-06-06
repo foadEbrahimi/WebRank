@@ -1,13 +1,12 @@
-import React from "react";
+import React from 'react';
 import {
   BiLogoFacebook,
   BiLogoInstagram,
   BiLogoLinkedin,
   BiLogoSkype,
   BiLogoTwitter,
-} from "react-icons/bi";
-import { FaAngleLeft } from "react-icons/fa";
-import { Group } from "evergreen-ui";
+} from 'react-icons/bi';
+import { FaAngleLeft } from 'react-icons/fa';
 export default function Footer() {
   return (
     <div className="bg-[#151515] text-white py-5">
@@ -97,7 +96,7 @@ export default function Footer() {
               با این حال ، هیچ یک از چیزهایی که من می خوانم تقصیر بزرگ ما نخواهد
               بود
             </p>
-            <Group dir="ltr" className="rounded-md">
+            <div dir="ltr" className="rounded-md">
               <input
                 type="text"
                 placeholder="بنویس ..."
@@ -105,7 +104,7 @@ export default function Footer() {
                 className="p-10 text-black"
               />
               <button className="bg-Primary p-2 rounded-md">دنبال کردن</button>
-            </Group>
+            </div>
           </div>
         </div>
       </div>

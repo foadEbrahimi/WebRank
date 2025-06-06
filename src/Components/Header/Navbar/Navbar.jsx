@@ -1,17 +1,17 @@
-import React from "react";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faEllipsis } from "@fortawesome/free-solid-svg-icons";
-import "./style.css";
-import $ from "jquery";
+import React from 'react';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faEllipsis } from '@fortawesome/free-solid-svg-icons';
+import './style.css';
+import $ from 'jquery';
 
 export default function Navbar() {
   const ListNavbar = [
-    { id: 1, name: "خانه", address: "#9" },
-    { id: 2, name: "درباره ما", address: "#9" },
-    { id: 3, name: "خدمات", address: "#9" },
-    { id: 4, name: "نمونه کارها", address: "#9" },
-    { id: 5, name: "تیم", address: "#9" },
-    { id: 6, name: "تماس با ما", address: "#9" },
+    { id: 1, name: 'خانه', address: '#9' },
+    { id: 2, name: 'درباره ما', address: '#9' },
+    { id: 3, name: 'خدمات', address: '#9' },
+    { id: 4, name: 'نمونه کارها', address: '#9' },
+    { id: 5, name: 'تیم', address: '#9' },
+    { id: 6, name: 'تماس با ما', address: '#9' },
   ];
   const List = ListNavbar.map((list, index) => (
     <li key={index}>
@@ -34,15 +34,15 @@ export default function Navbar() {
   $(() => {
     var is_bouncy_nav_animating = false;
     //open bouncy navigation
-    $("#NavbarToggler").on("click", function () {
+    $('#NavbarToggler').on('click', function () {
       triggerBouncyNav(true);
     });
     //close bouncy navigation
-    $(".cd-bouncy-nav-modal .cd-close").on("click", function () {
+    $('.cd-bouncy-nav-modal .cd-close').on('click', function () {
       triggerBouncyNav(false);
     });
-    $(".cd-bouncy-nav-modal").on("click", function (event) {
-      if ($(event.target).is(".cd-bouncy-nav-modal")) {
+    $('.cd-bouncy-nav-modal').on('click', function (event) {
+      if ($(event.target).is('.cd-bouncy-nav-modal')) {
         triggerBouncyNav(false);
       }
     });
@@ -53,22 +53,22 @@ export default function Navbar() {
         is_bouncy_nav_animating = true;
 
         //toggle list items animation
-        $(".cd-bouncy-nav-modal")
-          .toggleClass("fade-in", $bool)
-          .toggleClass("fade-out", !$bool)
-          .find("li:last-child")
+        $('.cd-bouncy-nav-modal')
+          .toggleClass('fade-in', $bool)
+          .toggleClass('fade-out', !$bool)
+          .find('li:last-child')
           .one(
-            "webkitAnimationEnd oanimationend msAnimationEnd animationend",
+            'webkitAnimationEnd oanimationend msAnimationEnd animationend',
             function () {
-              $(".cd-bouncy-nav-modal").toggleClass("is-visible", $bool);
-              if (!$bool) $(".cd-bouncy-nav-modal").removeClass("fade-out");
+              $('.cd-bouncy-nav-modal').toggleClass('is-visible', $bool);
+              if (!$bool) $('.cd-bouncy-nav-modal').removeClass('fade-out');
               is_bouncy_nav_animating = false;
             }
           );
 
         //check if CSS animations are supported...
-        if ($("#NavbarToggler").parents(".no-csstransitions").length > 0) {
-          $(".cd-bouncy-nav-modal").toggleClass("is-visible", $bool);
+        if ($('#NavbarToggler').parents('.no-csstransitions').length > 0) {
+          $('.cd-bouncy-nav-modal').toggleClass('is-visible', $bool);
           is_bouncy_nav_animating = false;
         }
       }

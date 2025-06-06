@@ -6,7 +6,6 @@ import slider2 from '../../../../public/images/Slider/img2.png';
 import slider3 from '../../../../public/images/Slider/img3.png';
 import slider4 from '../../../../public/images/Slider/img4.png';
 import slider5 from '../../../../public/images/Slider/img5.png';
-import { Pagination } from 'evergreen-ui';
 export default function Slider() {
   return (
     <Splide
