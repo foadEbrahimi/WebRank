@@ -3,10 +3,15 @@
 @tailwind utilities;
 
 @font-face {
-  font-family: Tanha;
+  font-family: 'Tanha';
   src: url('../public/Font/Tanha-FD.woff2') format(woff2);
   font-weight: normal;
 }
+
+body {
+  font-family: 'Tanha';
+}
+
 .App {
   background-image: linear-gradient(rgba(25, 25, 26, 0.7), rgba(0, 0, 0, 0.7)),
     url('../public/images/Hero-bg.jpg');
