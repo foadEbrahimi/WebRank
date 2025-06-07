@@ -4,6 +4,11 @@ import slider3 from '../../public/images/Slider/img3.png';
 import slider4 from '../../public/images/Slider/img4.png';
 import slider5 from '../../public/images/Slider/img5.png';
 
+import ads from '../../public/images/ads/ads.svg';
+import whitch from '../../public/images/ads/whitch.svg';
+import blink from '../../public/images/ads/blink.svg';
+import truth from '../../public/images/ads/truth.svg';
+
 export const HeroCardsInfo = [
   {
     id: 1,
@@ -126,5 +131,28 @@ export const adsSliderImg = [
   },
   {
     img: slider3,
+  },
+];
+
+export const adsInfo = [
+  {
+    title: 'تبلیغ سختی است',
+    sub: 'نتایج یا در نتیجه هر یک از این اهداف اشتغال حاصل می شوند',
+    icon: ads,
+  },
+  {
+    title: 'کدام یک از اینهاست',
+    sub: 'کسانی که هوس سیاهان می کنند نمی بینند ، آنها مقصر هستند که خدمات خود را رها کرده اند',
+    icon: whitch,
+  },
+  {
+    title: 'یا کور شده است',
+    sub: 'یا می پذیرد یا زمانی که هیچ کس از همه اجتناب نمی کند. همه دردهایی که آنها را بیشتر می کند',
+    icon: blink,
+  },
+  {
+    title: 'حقیقت مبارک',
+    sub: 'آنها بدون تحمل حقیقت در زمان ستایش زندگی از هیچ چیزی پیروی نمی کنند',
+    icon: truth,
   },
 ];
