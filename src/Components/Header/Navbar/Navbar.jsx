@@ -77,7 +77,7 @@ export default function Navbar() {
 
   return (
     <div className="md:order-1 ms-4 md:me-4">
-      <div className="MobileSize md:hidden">
+      <div className="md:hidden">
         <a href="#">
           <FontAwesomeIcon
             icon={faEllipsis}
