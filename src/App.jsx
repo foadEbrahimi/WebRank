@@ -9,16 +9,18 @@ import Servant from './Components/Servant/Servant';
 import Team from './Components/Team/Team';
 
 import './index.css';
+
 const titleSections = [
   { ID: 1, subTitle: 'خدمات', Title: 'خدمات ما را بررسی کنید' },
   { ID: 2, subTitle: 'نمونه کارها', Title: 'نمونه کارها ما را بررسی کنید' },
   { ID: 3, subTitle: 'تیم', Title: 'تیم ما را بررسی کنید' },
   { ID: 4, subTitle: 'تماس با ما', Title: 'با ما تماس بگیرید' },
 ];
+
 function App() {
   return (
     <div className="font-Tanha">
-      <div className="App md:h-[100vb] flex flex-col gap-y-32">
+      <div className="App min-h-[100dvh] flex flex-col gap-y-20 md:gap-y-32">
         <Header />
         <Hero />
       </div>
