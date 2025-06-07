@@ -85,7 +85,7 @@ const InfoCards = [
 
 export default function Hero() {
   return (
-    <div className="space-y-16">
+    <div className="space-y-5 md:space-y-10 xl:space-y-16">
       <div className="HeroContent space-y-3 lg:space-y-5 px-5">
         <h1 className="text-white text-3xl md:text-4xl lg:text-5xl text-center font-bold">
           راه حل های قدرتمند دیجیتال با
