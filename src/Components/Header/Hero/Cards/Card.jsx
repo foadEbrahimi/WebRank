@@ -1,11 +1,24 @@
-import React from "react";
+import React from 'react';
 
-export default function Card(props) {
+export default function Card({
+  classIcon,
+  classCard,
+  classText,
+  title,
+  icon,
+  subTile,
+  subTitle,
+  byImg = false,
+}) {
   return (
-    <div className={props.classCard}>
-      <span className={props.classIcon}>{props.icon}</span>
-      <h1 className={props.classText}>{props.title}</h1>
-      {!props.subTile ? <h1>{props.subTitle}</h1> : null}
+    <div className={classCard}>
+      {byImg ? (
+        <img className={classIcon} src={icon} alt="" />
+      ) : (
+        <span className={classIcon}>{icon}</span>
+      )}
+      <h1 className={classText}>{title}</h1>
+      {!subTile ? <h1>{subTitle}</h1> : null}
     </div>
   );
 }
