@@ -9,6 +9,13 @@ import whitch from '../../public/images/ads/whitch.svg';
 import blink from '../../public/images/ads/blink.svg';
 import truth from '../../public/images/ads/truth.svg';
 
+import icon1 from '../../public/images/services/icon1.svg';
+import icon2 from '../../public/images/services/icon2.svg';
+import icon3 from '../../public/images/services/icon3.svg';
+import icon4 from '../../public/images/services/icon4.svg';
+import icon5 from '../../public/images/services/icon5.svg';
+import icon6 from '../../public/images/services/icon6.svg';
+
 export const HeroCardsInfo = [
   {
     id: 1,
@@ -154,5 +161,74 @@ export const adsInfo = [
     title: 'حقیقت مبارک',
     sub: 'آنها بدون تحمل حقیقت در زمان ستایش زندگی از هیچ چیزی پیروی نمی کنند',
     icon: truth,
+  },
+];
+
+export const servicesInfo = [
+  {
+    id: 1,
+    icon: icon1,
+    title: 'لورم اپیسوم',
+    subTitle:
+      'برای آرامش بخشیدن و لذت بردن از مفاسد ، چه دردها و چه دردسرهایی را دریافت خواهند کرد',
+    classCard:
+      'flex flex-col gap-y-3 min-h-fit text-center px-8 items-center py-14 shadow-lg rounded-lg shadow-Primary/20 hover:scale-[1] hover:-translate-y-2 duration-500 transition-all',
+    classText: 'font-bold text-2xl',
+    classIcon: 'bg-Primary flex w-fit w-12 h-12 p-3 rounded-md',
+  },
+  {
+    id: 2,
+    icon: icon2,
+    title: 'اما همانطور که مشاهده می کنید',
+    subTitle:
+      'آنها استثنائاتی هستند که به دنبال سیاه پوستان هستند ، آنها نمی بینند ، آنها کسانی هستند که در خدمات خود مقصر هستند',
+    classCard:
+      'flex flex-col gap-y-3 h-fit text-center px-8 items-center py-14 shadow-lg rounded-lg shadow-Primary/20 hover:scale-[1] hover:-translate-y-2 duration-500 transition-all',
+    classText: 'font-bold text-xl xl:text-2xl',
+    classIcon: 'bg-Primary flex w-fit w-12 h-12 p-3 rounded-md',
+  },
+  {
+    id: 3,
+    icon: icon3,
+    title: 'دردهای بزرگ',
+    subTitle:
+      'آنها استثنائاتی هستند که به دنبال سیاه پوستان هستند ، آنها نمی بینند ، آنها کسانی هستند که در خدمات خود مقصر هستند',
+    classCard:
+      'flex flex-col gap-y-3 h-fit text-center px-8 items-center py-14 shadow-lg rounded-lg shadow-Primary/20 hover:scale-[1] hover:-translate-y-2 duration-500 transition-all',
+    classText: 'font-bold text-2xl',
+    classIcon: 'bg-Primary flex w-fit w-12 h-12 p-3 rounded-md',
+  },
+  {
+    id: 4,
+    icon: icon4,
+    title: 'هیچکس دیگر',
+    subTitle:
+      'اما در واقع ما هم آنها را متهم می کنیم و هم با یک نفرت عادلانه شایسته چاپلوسی هستیم',
+    classCard:
+      'flex flex-col gap-y-3 h-fit text-center px-8 items-center py-14 shadow-lg rounded-lg shadow-Primary/20 hover:scale-[1] hover:-translate-y-2 duration-500 transition-all',
+    classText: 'font-bold text-2xl',
+    classIcon: 'bg-Primary flex w-fit w-12 h-12 p-3 rounded-md',
+  },
+  {
+    id: 5,
+    icon: icon5,
+    title: 'لولا را پاک کنید',
+    subTitle:
+      'اما در واقع ما هم آنها را متهم می کنیم و هم با یک نفرت عادلانه شایسته چاپلوسی هستیم',
+    classCard:
+      'flex flex-col gap-y-3 h-fit text-center px-8 items-center py-14 shadow-lg rounded-lg shadow-Primary/20 hover:scale-[1] hover:-translate-y-2 duration-500 transition-all',
+    classText: 'font-bold text-2xl',
+    classIcon: 'bg-Primary flex w-fit w-12 h-12 p-3 rounded-md',
+  },
+  {
+    id: 6,
+    icon: icon6,
+    title: 'دیوا دان',
+    subTitle:
+      'روشها یا تلاشهای ما علاوه بر این ، خطا فرار می کند ، بگذار کوچکتر عاقل باشد',
+    classCard:
+      'flex flex-col gap-y-3 h-fit text-center px-8 items-center py-14 shadow-lg rounded-lg shadow-Primary/20 hover:scale-[1] hover:-translate-y-2 duration-500 transition-all',
+    classText: 'font-bold text-2xl',
+    classIcon: 'bg-Primary flex w-fit w-12 h-12 p-3 rounded-md',
   },
 ];
