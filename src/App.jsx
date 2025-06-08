@@ -5,7 +5,7 @@ import Footer from './Components/Footer/Footer';
 import Header from './Components/Header/Header';
 import Hero from './Components/Header/Hero/Hero';
 import Portfolio from './Components/Portfolio/Portfolio';
-import Servant from './Components/Servant/Servant';
+import Services from './Components/Services/Services';
 import Team from './Components/Team/Team';
 
 import './index.css';
@@ -26,7 +26,7 @@ function App() {
       </div>
       <main className="space-y-32">
         <About />
-        <Servant {...titleSections[0]} />
+        <Services {...titleSections[0]} />
         <Portfolio {...titleSections[1]} />
         <Feedback />
         <Team {...titleSections[2]} />
