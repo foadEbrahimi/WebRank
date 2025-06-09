@@ -20,7 +20,7 @@ const titleSections = [
 function App() {
   return (
     <div className="font-Tanha">
-      <div className="App min-h-[100dvh] flex flex-col gap-y-20 md:gap-y-32">
+      <div className="App min-h-screen flex flex-col gap-y-20 md:gap-y-32">
         <Header />
         <Hero />
       </div>
