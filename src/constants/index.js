@@ -1,20 +1,25 @@
-import slider1 from '../../public/images/Slider/img1.png';
-import slider2 from '../../public/images/Slider/img2.png';
-import slider3 from '../../public/images/Slider/img3.png';
-import slider4 from '../../public/images/Slider/img4.png';
-import slider5 from '../../public/images/Slider/img5.png';
+import slider1 from '/images/Slider/img1.png';
+import slider2 from '/images/Slider/img2.png';
+import slider3 from '/images/Slider/img3.png';
+import slider4 from '/images/Slider/img4.png';
+import slider5 from '/images/Slider/img5.png';
 
-import ads from '../../public/images/ads/ads.svg';
-import whitch from '../../public/images/ads/whitch.svg';
-import blink from '../../public/images/ads/blink.svg';
-import truth from '../../public/images/ads/truth.svg';
+import ads from '/images/ads/ads.svg';
+import whitch from '/images/ads/whitch.svg';
+import blink from '/images/ads/blink.svg';
+import truth from '/images/ads/truth.svg';
 
-import icon1 from '../../public/images/services/icon1.svg';
-import icon2 from '../../public/images/services/icon2.svg';
-import icon3 from '../../public/images/services/icon3.svg';
-import icon4 from '../../public/images/services/icon4.svg';
-import icon5 from '../../public/images/services/icon5.svg';
-import icon6 from '../../public/images/services/icon6.svg';
+import icon1 from '/images/services/icon1.svg';
+import icon2 from '/images/services/icon2.svg';
+import icon3 from '/images/services/icon3.svg';
+import icon4 from '/images/services/icon4.svg';
+import icon5 from '/images/services/icon5.svg';
+import icon6 from '/images/services/icon6.svg';
+
+import iconPor1 from '/images/Portfolio/svg/icon1.svg';
+import iconPor2 from '/images/Portfolio/svg/icon2.svg';
+import iconPor3 from '/images/Portfolio/svg/icon3.svg';
+import iconPor4 from '/images/Portfolio/svg/icon4.svg';
 
 export const HeroCardsInfo = [
   {
@@ -275,5 +280,34 @@ export const portfolioInfo = [
     subtitle: 'برنامه',
     category: 'Program',
     id: 6,
+  },
+];
+
+export const fittetstCardInfo = [
+  {
+    id: 1,
+    title: 65,
+    subTitle: 'مشتریان خوشحال خوشحالیم که از معمار چیزی دریافت کنیم.',
+    icon: iconPor1,
+  },
+  {
+    id: 2,
+    title: 85,
+    subTitle:
+      'پروژه ها برای بدست آوردن و زمانی که او کل کسانی را که از او تعریف می کنند رد می کند و آنها را حقیر می شمارد',
+    icon: iconPor2,
+  },
+  {
+    id: 3,
+    title: 35,
+    subTitle: 'سال ها تجربه یا اجازه دهید به دنبال نوعی مزیت باشد',
+    icon: iconPor3,
+  },
+  {
+    id: 4,
+    title: 20,
+    subTitle:
+      'جوایز درد دردناک تر است در زمانی دیگر که هیچکس او را متهم نمی کند و هیچ وقت او را متهم نمی کند',
+    icon: iconPor4,
   },
 ];
