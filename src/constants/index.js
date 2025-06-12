@@ -26,6 +26,10 @@ import member2 from '/images/Team/team2.jpg';
 import member3 from '/images/Team/team3.jpg';
 import member4 from '/images/Team/team4.jpg';
 
+import iconCon1 from '/images/contact/icon1.svg';
+import iconCon2 from '/images/contact/icon2.svg';
+import iconCon3 from '/images/contact/icon3.svg';
+
 export const HeroCardsInfo = [
   {
     id: 1,
@@ -380,5 +384,26 @@ export const TeamInfo = [
     name: 'امیرمحمد جعفری',
     src: member4,
     silence: 'مدیرعامل',
+  },
+];
+
+export const contactInfo = [
+  {
+    id: 1,
+    title: 'مکان:',
+    subTitle: 'کرمان',
+    icon: iconCon1,
+  },
+  {
+    id: 2,
+    title: 'ایمیل:',
+    subTitle: 'info@example.com',
+    icon: iconCon2,
+  },
+  {
+    id: 3,
+    title: 'شماره تماس:',
+    subTitle: '0123467889',
+    icon: iconCon3,
   },
 ];
