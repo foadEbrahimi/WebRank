@@ -1,4 +1,5 @@
 import React from 'react';
+
 import {
   BiLogoFacebook,
   BiLogoInstagram,
@@ -6,7 +7,9 @@ import {
   BiLogoSkype,
   BiLogoTwitter,
 } from 'react-icons/bi';
+
 import { FaAngleLeft } from 'react-icons/fa';
+
 export default function Footer() {
   return (
     <div className="bg-[#151515] text-white py-5">
@@ -14,8 +17,12 @@ export default function Footer() {
         <div className="flex flex-col justify-between gap-y-10 md:grid md:grid-cols-2 md:items-center lg:grid-cols-4">
           <div className="flex flex-col gap-y-3">
             <div className="flex items-center">
-              <img src="./images/logo.png" className="w-28" alt="" />
-              <h1 className="text-2xl uppercase">webrank</h1>
+              <img
+                src="./images/logo.png"
+                className="w-28 mix-blend-screen"
+                alt=""
+              />
+              <h1 className="text-2xl">WebRank</h1>
             </div>
             <div className="text-lg pr-6">
               <h1>کرمان</h1>
@@ -96,14 +103,16 @@ export default function Footer() {
               با این حال ، هیچ یک از چیزهایی که من می خوانم تقصیر بزرگ ما نخواهد
               بود
             </p>
-            <div dir="ltr" className="rounded-md">
+            <div dir="rtl" className="flex">
               <input
                 type="text"
                 placeholder="بنویس ..."
                 dir="rtl"
-                className="p-10 text-black"
+                className="p-10 text-black rounded-none border-0 rounded-r-md"
               />
-              <button className="bg-Primary p-2 rounded-md">دنبال کردن</button>
+              <button className="bg-Primary p-2 rounded-l-md">
+                دنبال کردن
+              </button>
             </div>
           </div>
         </div>
