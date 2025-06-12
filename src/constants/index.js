@@ -21,6 +21,11 @@ import iconPor2 from '/images/Portfolio/svg/icon2.svg';
 import iconPor3 from '/images/Portfolio/svg/icon3.svg';
 import iconPor4 from '/images/Portfolio/svg/icon4.svg';
 
+import member1 from '/images/Team/team1.jpg';
+import member2 from '/images/Team/team2.jpg';
+import member3 from '/images/Team/team3.jpg';
+import member4 from '/images/Team/team4.jpg';
+
 export const HeroCardsInfo = [
   {
     id: 1,
@@ -348,5 +353,32 @@ export const FeedbackInfo = [
     src: './images/feedback/img1.jpg',
     discribtion:
       'لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است',
+  },
+];
+
+export const TeamInfo = [
+  {
+    id: 1,
+    name: 'فواد ابراهیمی',
+    src: member1,
+    silence: 'مالک',
+  },
+  {
+    id: 2,
+    name: 'حسام احمدی',
+    src: member2,
+    silence: 'توسعه دهنده',
+  },
+  {
+    id: 3,
+    name: 'امیرعباس ابارقی',
+    src: member3,
+    silence: 'مدیر ارشد',
+  },
+  {
+    id: 4,
+    name: 'امیرمحمد جعفری',
+    src: member4,
+    silence: 'مدیرعامل',
   },
 ];
