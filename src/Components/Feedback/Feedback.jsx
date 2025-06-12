@@ -23,8 +23,8 @@ export default function Feedback() {
         slidesPerView={1}
       >
         {FeedbackInfo.map(person => (
-          <SwiperSlide>
-            <FeedCard {...person} key={person.id} />
+          <SwiperSlide key={person.id}>
+            <FeedCard {...person} />
           </SwiperSlide>
         ))}
       </Swiper>
