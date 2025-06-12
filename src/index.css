@@ -4,7 +4,7 @@
 
 @font-face {
   font-family: 'Tanha';
-  src: url('../public/Font/Tanha-FD.woff2') format(woff2);
+  src: url('/Font/Tanha-FD.woff2') format(woff2);
   font-weight: normal;
 }
 
@@ -14,7 +14,7 @@ body {
 
 .App {
   background-image: linear-gradient(rgba(25, 25, 26, 0.7), rgba(0, 0, 0, 0.7)),
-    url('../public/images/Hero-bg.jpg');
+    url('/images/Hero-bg.jpg');
   background-position: right top;
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -23,7 +23,7 @@ body {
 }
 .Farakhan {
   background-image: linear-gradient(rgba(25, 25, 26, 0.7), rgba(0, 0, 0, 0.7)),
-    url('../public/images/cta-bg.jpg');
+    url('/images/cta-bg.jpg');
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
